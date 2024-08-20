@@ -1,5 +1,5 @@
 # set_studio_metadata
-A script to set Eluvio Studio metadata (with only titles and latest hashes being extracted)
+A script to set Eluvio Studio metadata, extracting only titles and the latest hashes.
 
 ## Installation
 ```
@@ -9,13 +9,11 @@ npm install
 ```
 
 ## Configuration Setup
-* Create `config.json`
-* Copy and paste the script provided below
 
 ```
 {
-    "config_url": "URL for the configuration",
-    "private_key": "Private key",
+    "config_url": "Config URL",
+    "private_key": "Private Key",
     "mez_lib_id": "Mezzanine library ID",
     "utilities_path": "/path/to/utilities",
     "media_catalog_id": "Media catalog ID"
@@ -23,10 +21,13 @@ npm install
 ```
 
 ## Command
+
 ```
 python studio_set_metadata.py
 ```
-Copy the output metadata from `media.json` and paste it on the Media Catalog or use MetaSet utility to set metadata
+
+Copy the output metadata from media.json and paste it into the Media Catalog, or use the MetaSet utility to set the metadata.
+
 
 ## Process
 * Extract and store titles of all content IDs in `title.json`
