@@ -9,8 +9,6 @@ npm install
 ```
 
 ## Configuration Setup
-* Create `config.json`
-* Copy and paste the script provided below
 
 ```
 {
