@@ -29,9 +29,9 @@ python studio_set_metadata.py
 Copy the output metadata from `media.json` and paste it on the Media Catalog or use MetaSet utility to set metadata
 
 ## Process
-* Extract titles of all content IDs and store them in `title.json`
-* Extract latest hashes of all content IDs and store them in `latest_hash.json`
-* Create metadata and store it in `media.json`
+* Extract and store titles of all content IDs in `title.json`
+* Extract and store latest hashes of all content IDs in `latest_hash.json`
+* Create and store metadata in `media.json`
 ```
 {
     "asset_metadata": {
